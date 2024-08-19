@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css'; // Assuming you move the styles to an external CSS file or use inline styles
 import { Link } from 'react-router-dom'; 
-
 function LoginForm() {
   const [employeeID, setEmployeeID] = useState('');
   const [password, setPassword] = useState('');

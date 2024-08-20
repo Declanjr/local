@@ -14,7 +14,7 @@ root.render(
      <MantineProvider
       theme={{ colorScheme: 'light' }} // Customize your theme here
     >
-        <Reset />
+        <App />
     </MantineProvider>
   </React.StrictMode>
 );
